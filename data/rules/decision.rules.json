@@ -1,0 +1,29 @@
+{
+  "rules": {
+    "independence_gate": {
+      "description": "El DPO debe ser independiente y reportar a la alta dirección",
+      "fail_if": [
+        "any(conflict_roles == true)",
+        "autonomy == false",
+        "reports_to_top_management == false"
+      ],
+      "result": "NO_APTO"
+    },
+    "functions_minimum": {
+      "description": "Debe cubrir al menos el 80% de las funciones mínimas",
+      "required_percentage": 0.8,
+      "fail_result": "APTO_CON_OBSERVACIONES"
+    },
+    "resources_minimum": {
+      "description": "Debe contar con al menos 3 recursos asignados",
+      "required_count": 3,
+      "fail_result": "APTO_CON_OBSERVACIONES"
+    },
+    "confidentiality_required": {
+      "description": "Debe existir NDA y cláusula de confidencialidad",
+      "nda_signed": true,
+      "confidentiality_clause": true,
+      "fail_result": "APTO_CON_OBSERVACIONES"
+    }
+  }
+}
