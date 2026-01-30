@@ -1,0 +1,16 @@
+{
+  "evaluation_id": "EV-2026-0003",
+  "result": "APTO_CON_OBSERVACIONES",
+  "triggered_rules": [
+    "Cobertura de funciones inferior al 80%",
+    "Recursos asignados insuficientes"
+  ],
+  "recommendations": [
+    "Asignar recursos mínimos al DPO",
+    "Formalizar gestión de incidentes y derechos de titulares"
+  ],
+  "audit": {
+    "timestamp": "2026-01-30T13:25:00Z",
+    "methodology": "DPO Check-Wizard VibecodingChile v1"
+  }
+}
