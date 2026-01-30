@@ -1,0 +1,20 @@
+{
+  "evaluation_id": "EV-2026-0001",
+  "result": "APTO",
+  "risk_flag": true,
+  "scores": {
+    "competencies_score": 7,
+    "resources_score": 3,
+    "functions_coverage": 1.0
+  },
+  "triggered_rules": [],
+  "recommendations": [
+    "Formalizar mandato del DPO",
+    "Mantener evidencia de independencia y acceso a alta dirección"
+  ],
+  "audit": {
+    "timestamp": "2026-01-30T13:11:00Z",
+    "methodology": "DPO Check-Wizard VibecodingChile v1",
+    "evidence_generated": true
+  }
+}
