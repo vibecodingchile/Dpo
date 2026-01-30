@@ -1,0 +1,16 @@
+{
+  "evaluation_id": "EV-2026-0002",
+  "result": "NO_APTO",
+  "triggered_rules": [
+    "Conflicto de interés detectado: CTO",
+    "Falta de autonomía funcional"
+  ],
+  "recommendations": [
+    "Designar DPO externo o separar funciones incompatibles",
+    "Garantizar reporte directo a la alta dirección"
+  ],
+  "audit": {
+    "timestamp": "2026-01-30T13:18:00Z",
+    "methodology": "DPO Check-Wizard VibecodingChile v1"
+  }
+}
