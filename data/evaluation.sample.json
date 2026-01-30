@@ -1,0 +1,58 @@
+{
+  "evaluation_id": "EV-2026-0001",
+  "created_at": "2026-01-30T13:11:00Z",
+  "organization": {
+    "name": "VibecodingChile",
+    "sector": "SaaS / LegalTech"
+  },
+  "evaluator": {
+    "email": "contacto@vibecodingchile.com"
+  },
+  "dpo": {
+    "modality": "Interno"
+  },
+  "risk_assessment": {
+    "large_scale_processing": true,
+    "sensitive_data": true,
+    "high_volume_subjects": false,
+    "ai_profiling": false,
+    "international_transfers": true
+  },
+  "independence": {
+    "conflict_roles": {
+      "ceo": false,
+      "cto": false,
+      "head_of_product": false,
+      "hr": false,
+      "marketing_growth": false,
+      "sales": false,
+      "security_lead": false
+    },
+    "autonomy": true,
+    "reports_to_top_management": true
+  },
+  "competencies": {
+    "law_21719": "ALTO",
+    "experience_years": "3_PLUS",
+    "gdpr_standards": "SI",
+    "privacy_security_training": true
+  },
+  "functions": {
+    "advise_compliance": true,
+    "oversee_policies": true,
+    "manage_data_subject_requests": true,
+    "incident_breach_management": true,
+    "contact_authority": true,
+    "privacy_by_design": true
+  },
+  "resources": {
+    "time_allocated": true,
+    "budget": true,
+    "access_to_information": true,
+    "tools": false
+  },
+  "confidentiality": {
+    "nda_signed": true,
+    "confidentiality_clause": true
+  }
+}
